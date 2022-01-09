@@ -6,6 +6,8 @@ const App = () => {
         <div>
             <Animal emoji="🐓" name="stevie" species="Silkie Chicken" />
             <Animal emoji="🐄" name="Colorful Cow" species="Unknown"/>
+       {/* for RandomChoices */}
+       <RandomChoice choices= { ["Red", "green", "orange"] }/> 
         </div>
     )
 }
